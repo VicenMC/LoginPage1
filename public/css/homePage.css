@@ -1,0 +1,110 @@
+body{
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white; 
+}
+
+p{
+    color:rgb(92, 91, 91);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ion-icon{
+    text-decoration: none;
+    color: white;
+    font-size:27px;
+}
+
+
+
+.container{
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 10px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+}
+
+.loggedContainer{
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 10px;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.buttonEnter{
+    font-family: 'Open Sans', sans-serif;
+   display: block;
+   border-radius: 1em;
+   border: 2px solid rgb(132, 132, 230);   font-size: 20px;
+   margin: 10px 20px 20px 20px;
+   padding: 5px;
+   text-decoration: none;
+   color:rgb(92, 91, 91);
+}
+
+.buttonEnter:hover{
+    cursor: pointer;
+    background-color: rgb(208, 197, 197);
+    color: grey;
+ }
+
+ .buttonReturn{
+    display: block;
+    border-radius: 1em;
+    border: 2px solid rgb(42, 216, 150);   font-size: 20px;
+    margin: 10 auto auto auto;
+    padding: 5px 25px;
+    text-decoration: none;
+    color:white;
+    background-color: transparent;
+    font-size: small;
+ }
+
+ .buttonReturn:hover{
+    cursor: pointer;
+    background-color: rgb(208, 197, 197);
+    color: grey;
+   }
+
+.material-icons{
+    color:white;
+}
+
+.fa fa-twitter{
+    color:white;
+}
+
+.iconContainer{
+    margin-top: 30px;
+}
+
+.iconHolder{
+    margin-left: 30px;
+    margin-right: 30px;
+}

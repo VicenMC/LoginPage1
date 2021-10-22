@@ -1,0 +1,113 @@
+body{
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white; 
+    margin: 5px 0px 0px -10px;
+    margin: auto;
+}
+
+p{
+    color:rgb(116, 116, 116);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin: 5px 0 5px 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input:focus{
+    outline: none;
+}
+
+ion-icon{
+    text-decoration: none;
+    color: white;
+    font-size:27px;
+}
+
+input[type="text"] {
+    font-size:25px;
+}
+
+.container{
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 10px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+}
+
+.registerForm{
+    text-align: center;
+}
+
+.buttonEnter{
+   display: block;
+   border-radius: 1em;
+   border: 2px solid rgb(42, 216, 150);   font-size: 20px;
+   margin: 20px auto auto auto;
+   padding: 5px 25px;
+   text-decoration: none;
+   color:white;
+   background-color: transparent;
+   font-size: small;
+}
+
+.buttonEnter:hover{
+    cursor: pointer;
+    background-color: rgb(208, 197, 197);
+    color: grey;
+}
+
+.inputField{
+    display: block;
+    border-radius: 1em;
+    border: 2px solid rgb(155, 155, 201);   
+    margin: 20px auto auto auto;
+    padding: 5px;
+    text-decoration: none;
+    color:rgb(92, 91, 91);
+    text-align: center;
+    background-color: transparent;
+ }
+
+
+.logButton{
+    display: inline-block;
+    border-radius: 1em;
+    border: 2px solid rgb(42, 216, 150);   font-size: 20px;
+    margin: 5px auto auto auto;
+    padding: 5px 20px;
+    text-decoration: none;
+    color:white;
+    background-color: transparent;
+    font-size: small;
+}
+
+.logButton:hover{
+    cursor: pointer;
+    background-color: rgb(208, 197, 197);
+    color: grey;
+}
+
+.iconContainer{
+    margin-top: 15px;
+}
+
+.iconHolder{
+    margin-left: 20px;
+    margin-right: 20px;
+}
